@@ -1,15 +1,7 @@
-apiVersion: constraints.gatekeeper.sh/v1beta1
-kind: K8sAllowedRepos
-metadata:
-  name: whitelist-repos
-spec:
-  match:
-    kinds:
-    - apiGroups: [""]
-      kinds: ["Pod"]
-  parameters:
-    repos:
-    - "docker.io"
-    - "gcr.io"
-    - "quay.io"
-
+      apiVersion: networking.k8s.io/v1beta1
+      kind: IngressClass
+      metadata: 
+        name: traefik-lb
+        namespace: corp-sec-medium
+      spec: 
+        controller: traefik.io/ingress-controller
