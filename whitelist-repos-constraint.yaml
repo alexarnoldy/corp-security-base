@@ -3,6 +3,7 @@ kind: K8sAllowedRepos
 metadata:
   name: whitelist-repos
 spec:
+  enforcementAction: dryrun
   match:
     kinds:
     - apiGroups: [""]
