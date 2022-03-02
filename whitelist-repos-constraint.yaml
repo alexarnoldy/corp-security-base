@@ -12,3 +12,6 @@ spec:
     - "docker.io"
     - "gcr.io"
     - "quay.io"
+    - "rancher"
+    - "index.docker.io"
+    - "openpolicyagent"
