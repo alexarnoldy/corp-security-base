@@ -1,4 +1,4 @@
 #defaultNamespace: gatekeeper-system
 dependsOn:
-  - name: gatekeeper-helm-installation-gatekeeper-fleet-gatekeeper
+        #  - name: gatekeeper-helm-installation-gatekeeper-fleet-gatekeeper
   - name: gatekeeper-templates-gatekeeper-fleet-constraint-templates
