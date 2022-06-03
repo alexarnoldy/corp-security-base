@@ -1,4 +1,4 @@
 kind: Namespace
 apiVersion: v1
 metadata:
-  name: k8s-min-sec-ns
+  name: opa-gatekeeper-ns
